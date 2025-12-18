@@ -25,7 +25,7 @@ uv run track --input path/to/video.mp4 --output output.mp4
 ```
 
 ### Options:
-- `--input`: Path to input video file (default: `../assets/piscine.mp4`).
+- `--input`: Path to input video file (default: `assets/piscine.mp4`).
 - `--output`: Path to save output video file (default: `output.mp4`).
 - `--model`: YOLOv8 pose model to use (default: `yolov8n-pose.pt`).
 - `--conf`: Confidence threshold for keypoints (default: `0.5`).

@@ -6,5 +6,8 @@ __pycache__/
 .DS_Store
 .vscode/
 target/
-skeleton_tracker.egg-info/
-yolov8n-pose.pt
+*.egg-info/
+*.pt
+*.mp4
+*.avi
+runs/

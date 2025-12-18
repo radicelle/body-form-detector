@@ -132,7 +132,7 @@ def draw_emoji(frame, text, position, size=50):
 
 def main():
     parser = argparse.ArgumentParser(description="Skeleton Tracking with YOLOv8 Pose")
-    parser.add_argument("--input", type=str, default="../assets/piscine.mp4", help="Path to input video file")
+    parser.add_argument("--input", type=str, default="assets/piscine.mp4", help="Path to input video file")
     parser.add_argument("--output", type=str, default="output.mp4", help="Path to save output video file")
     parser.add_argument("--model", type=str, default="yolov8n-pose.pt", help="YOLOv8 pose model to use")
     parser.add_argument("--conf", type=float, default=0.5, help="Confidence threshold for keypoints")
